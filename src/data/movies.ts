@@ -71,7 +71,7 @@ export const movies: Movie[] = [
     description:
       "თვითმფრინავის კატასტროფის შემდეგ კაცი მარტო რჩება უკაცრიელ კუნძულზე. დაკარგული ცივილიზაციისგან, ის იბრძვის გადარჩენისთვის და საკუთარი თავის ხელახლა აღმოჩენისთვის.",
     keywords: ["lost", "დაკარგვა", "survival", "drama", "island"],
-    image: poster("/rSPw7tgCH9c6NqICZef4kZjFOQ5.jpg"),
+    image: poster("/7lLJgKnAicAcR5UEuo8xhSMj18w.jpg"),
     trailer: "qGuOZPwLayY",
   },
   {

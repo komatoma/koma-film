@@ -93,6 +93,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
 
+      { name: "twitter:title", content: "კინოს ბიბლიოთეკა — იპოვე შენი შემდეგი ფილმი" },
+      { name: "description", content: "Cine Browse is a modern, fully functional movie website for discovering and exploring films." },
+      { property: "og:description", content: "Cine Browse is a modern, fully functional movie website for discovering and exploring films." },
+      { name: "twitter:description", content: "Cine Browse is a modern, fully functional movie website for discovering and exploring films." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/39b9bc77-a208-4987-aa7e-8b3242b0f33a/id-preview-fe4e8c90--487beddc-86b6-4c32-bfac-e4cfb4b88b8d.lovable.app-1782899848168.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/39b9bc77-a208-4987-aa7e-8b3242b0f33a/id-preview-fe4e8c90--487beddc-86b6-4c32-bfac-e4cfb4b88b8d.lovable.app-1782899848168.png" },
     ],
     links: [
       {

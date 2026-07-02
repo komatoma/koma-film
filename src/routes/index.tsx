@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useMemo, useState, useEffect } from "react";
 import { Search, Film, Frown } from "lucide-react";
-import { movies } from "@/data/movies";
+import { movies, categories, type CategoryKey } from "@/data/movies";
 import { MovieCard } from "@/components/MovieCard";
 
 export const Route = createFileRoute("/")({
@@ -10,6 +10,7 @@ export const Route = createFileRoute("/")({
 
 function HomePage() {
   const [query, setQuery] = useState("");
+  const [activeCategory, setActiveCategory] = useState<CategoryKey | "all">("all");
   const [loading, setLoading] = useState(true);
 
   // მცირე loading მდგომარეობა პირველი რენდერისას
@@ -20,18 +21,29 @@ function HomePage() {
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
-    if (!q) return movies;
     return movies.filter((movie) => {
-      const haystack = [
-        movie.title,
-        movie.description,
-        ...movie.keywords,
-      ]
+      const matchesCategory =
+        activeCategory === "all" || movie.category === activeCategory;
+      if (!matchesCategory) return false;
+      if (!q) return true;
+      const haystack = [movie.title, movie.description, ...movie.keywords]
         .join(" ")
         .toLowerCase();
       return haystack.includes(q);
     });
-  }, [query]);
+  }, [query, activeCategory]);
+
+  // ჯგუფებად დაყოფა კატეგორიების მიხედვით (მხოლოდ როცა "ყველა" აქტიურია)
+  const grouped = useMemo(() => {
+    return categories
+      .map((cat) => ({
+        ...cat,
+        items: filtered.filter((m) => m.category === cat.key),
+      }))
+      .filter((g) => g.items.length > 0);
+  }, [filtered]);
+
+  const showSections = activeCategory === "all" && !query.trim();
 
   return (
     <main className="min-h-screen bg-background">
@@ -46,7 +58,7 @@ function HomePage() {
             იპოვე შენი შემდეგი <span className="text-gradient-gold">ფილმი</span>
           </h1>
           <p className="mx-auto mt-4 max-w-xl text-base text-muted-foreground sm:text-lg">
-            მოძებნე სახელით ან თემით — „დაკარგვა", „love", „war" და მრავალი სხვა.
+            მოძებნე სახელით ან თემით — „დაკარგვა", „love", „war", „მულტფილმი" და მრავალი სხვა.
           </p>
 
           {/* Search bar */}
@@ -69,22 +81,28 @@ function HomePage() {
               </button>
             )}
           </div>
+
+          {/* Category filter chips */}
+          <div className="mx-auto mt-6 flex max-w-3xl flex-wrap items-center justify-center gap-2">
+            <CategoryChip
+              label="ყველა"
+              active={activeCategory === "all"}
+              onClick={() => setActiveCategory("all")}
+            />
+            {categories.map((cat) => (
+              <CategoryChip
+                key={cat.key}
+                label={cat.label}
+                active={activeCategory === cat.key}
+                onClick={() => setActiveCategory(cat.key)}
+              />
+            ))}
+          </div>
         </div>
       </section>
 
       {/* Results */}
       <section className="mx-auto max-w-6xl px-4 py-12">
-        <div className="mb-6 flex items-center justify-between">
-          <h2 className="text-xl font-bold text-foreground">
-            {query ? "ძიების შედეგები" : "ყველა ფილმი"}
-          </h2>
-          {!loading && (
-            <span className="text-sm text-muted-foreground">
-              {filtered.length} ფილმი
-            </span>
-          )}
-        </div>
-
         {loading ? (
           <div className="grid grid-cols-2 gap-5 sm:grid-cols-3 lg:grid-cols-4">
             {Array.from({ length: 8 }).map((_, i) => (
@@ -94,22 +112,52 @@ function HomePage() {
               />
             ))}
           </div>
-        ) : filtered.length > 0 ? (
-          <div className="grid grid-cols-2 gap-5 sm:grid-cols-3 lg:grid-cols-4">
-            {filtered.map((movie) => (
-              <MovieCard key={movie.id} movie={movie} />
-            ))}
-          </div>
-        ) : (
+        ) : filtered.length === 0 ? (
           <div className="flex flex-col items-center justify-center rounded-2xl border border-dashed border-border py-20 text-center">
             <Frown className="mb-4 h-12 w-12 text-muted-foreground" />
             <p className="text-lg font-semibold text-foreground">
               ფილმი ვერ მოიძებნა
             </p>
             <p className="mt-1 text-sm text-muted-foreground">
-              სცადე სხვა საკვანძო სიტყვა, მაგ: „love" ან „war".
+              სცადე სხვა საკვანძო სიტყვა, მაგ: „love", „war" ან „მულტფილმი".
             </p>
           </div>
+        ) : showSections ? (
+          <div className="space-y-14">
+            {grouped.map((group) => (
+              <div key={group.key}>
+                <div className="mb-6 flex items-center justify-between">
+                  <h2 className="text-xl font-bold text-foreground">
+                    {group.label}
+                  </h2>
+                  <span className="text-sm text-muted-foreground">
+                    {group.items.length} ფილმი
+                  </span>
+                </div>
+                <div className="grid grid-cols-2 gap-5 sm:grid-cols-3 lg:grid-cols-4">
+                  {group.items.map((movie) => (
+                    <MovieCard key={movie.id} movie={movie} />
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        ) : (
+          <>
+            <div className="mb-6 flex items-center justify-between">
+              <h2 className="text-xl font-bold text-foreground">
+                {query ? "ძიების შედეგები" : "ფილმები"}
+              </h2>
+              <span className="text-sm text-muted-foreground">
+                {filtered.length} ფილმი
+              </span>
+            </div>
+            <div className="grid grid-cols-2 gap-5 sm:grid-cols-3 lg:grid-cols-4">
+              {filtered.map((movie) => (
+                <MovieCard key={movie.id} movie={movie} />
+              ))}
+            </div>
+          </>
         )}
       </section>
 
@@ -117,5 +165,29 @@ function HomePage() {
         დამზადებულია React + TanStack Router + Tailwind CSS-ით 🎬
       </footer>
     </main>
+  );
+}
+
+function CategoryChip({
+  label,
+  active,
+  onClick,
+}: {
+  label: string;
+  active: boolean;
+  onClick: () => void;
+}) {
+  return (
+    <button
+      onClick={onClick}
+      className={
+        "rounded-full border px-4 py-1.5 text-sm font-medium transition-colors " +
+        (active
+          ? "border-primary bg-primary text-primary-foreground"
+          : "border-border bg-card/60 text-muted-foreground hover:border-primary/50 hover:text-foreground")
+      }
+    >
+      {label}
+    </button>
   );
 }

@@ -1,6 +1,6 @@
 import { createFileRoute, Link, useRouter } from "@tanstack/react-router";
 import { ArrowLeft, Star, Clock, Calendar } from "lucide-react";
-import { getMovieById, movies } from "@/data/movies";
+import { getMovieById, movies, getCategoryLabel } from "@/data/movies";
 import { MovieCard } from "@/components/MovieCard";
 
 export const Route = createFileRoute("/movie/$movieId")({
@@ -91,6 +91,9 @@ function MovieDetailsPage() {
               </div>
 
               <div className="mt-4 flex flex-wrap gap-2">
+                <span className="rounded-full bg-primary px-3 py-1 text-xs font-semibold text-primary-foreground">
+                  {getCategoryLabel(movie.category)}
+                </span>
                 {movie.keywords.map((kw) => (
                   <span
                     key={kw}

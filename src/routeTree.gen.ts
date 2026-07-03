@@ -11,6 +11,7 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as WatchMovieIdRouteImport } from './routes/watch.$movieId'
 import { Route as MovieMovieIdRouteImport } from './routes/movie.$movieId'
 
 const SitemapDotxmlRoute = SitemapDotxmlRouteImport.update({
@@ -23,6 +24,11 @@ const IndexRoute = IndexRouteImport.update({
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const WatchMovieIdRoute = WatchMovieIdRouteImport.update({
+  id: '/watch/$movieId',
+  path: '/watch/$movieId',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const MovieMovieIdRoute = MovieMovieIdRouteImport.update({
   id: '/movie/$movieId',
   path: '/movie/$movieId',
@@ -33,30 +39,34 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/movie/$movieId': typeof MovieMovieIdRoute
+  '/watch/$movieId': typeof WatchMovieIdRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/movie/$movieId': typeof MovieMovieIdRoute
+  '/watch/$movieId': typeof WatchMovieIdRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/movie/$movieId': typeof MovieMovieIdRoute
+  '/watch/$movieId': typeof WatchMovieIdRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/sitemap.xml' | '/movie/$movieId'
+  fullPaths: '/' | '/sitemap.xml' | '/movie/$movieId' | '/watch/$movieId'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/sitemap.xml' | '/movie/$movieId'
-  id: '__root__' | '/' | '/sitemap.xml' | '/movie/$movieId'
+  to: '/' | '/sitemap.xml' | '/movie/$movieId' | '/watch/$movieId'
+  id: '__root__' | '/' | '/sitemap.xml' | '/movie/$movieId' | '/watch/$movieId'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   MovieMovieIdRoute: typeof MovieMovieIdRoute
+  WatchMovieIdRoute: typeof WatchMovieIdRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -75,6 +85,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/watch/$movieId': {
+      id: '/watch/$movieId'
+      path: '/watch/$movieId'
+      fullPath: '/watch/$movieId'
+      preLoaderRoute: typeof WatchMovieIdRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/movie/$movieId': {
       id: '/movie/$movieId'
       path: '/movie/$movieId'
@@ -89,17 +106,8 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   SitemapDotxmlRoute: SitemapDotxmlRoute,
   MovieMovieIdRoute: MovieMovieIdRoute,
+  WatchMovieIdRoute: WatchMovieIdRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
   ._addFileTypes<FileRouteTypes>()
-
-import type { getRouter } from './router.tsx'
-import type { startInstance } from './start.ts'
-declare module '@tanstack/react-start' {
-  interface Register {
-    ssr: true
-    router: Awaited<ReturnType<typeof getRouter>>
-    config: Awaited<ReturnType<typeof startInstance.getOptions>>
-  }
-}

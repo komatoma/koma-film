@@ -630,7 +630,7 @@ export const movies: Movie[] = [
     description:
       "მასშტაბური სამეცნიერო-ფანტასტიკური მოგზაურობა მომავლისა და უცნობისკენ. — Minority Report.",
     keywords: ["sci-fi", "ფანტასტიკა", "future", "thriller"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/4/44/Minority_Report_Poster.jpg",
     trailer: "B12Qc8Cr91E",
   },
   {
@@ -656,7 +656,7 @@ export const movies: Movie[] = [
     description:
       "მასშტაბური სამეცნიერო-ფანტასტიკური მოგზაურობა მომავლისა და უცნობისკენ. — Ready Player One.",
     keywords: ["sci-fi", "ფანტასტიკა", "virtual", "adventure"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/7/74/Ready_Player_One_%28film%29.png",
     trailer: "cSp1dM2Vj48",
   },
   {
@@ -669,7 +669,7 @@ export const movies: Movie[] = [
     description:
       "მასშტაბური სამეცნიერო-ფანტასტიკური მოგზაურობა მომავლისა და უცნობისკენ. — Looper.",
     keywords: ["sci-fi", "ფანტასტიკა", "time", "thriller"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/0/0a/Looper_poster.jpg",
     trailer: "2iQuhsmtfHw",
   },
   {
@@ -682,7 +682,7 @@ export const movies: Movie[] = [
     description:
       "მასშტაბური სამეცნიერო-ფანტასტიკური მოგზაურობა მომავლისა და უცნობისკენ. — The Fifth Element.",
     keywords: ["sci-fi", "ფანტასტიკა", "adventure", "alien"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/6/65/Fifth_element_poster_%281997%29.jpg",
     trailer: "6JnN1DmbqoU",
   },
   {
@@ -695,7 +695,7 @@ export const movies: Movie[] = [
     description:
       "მასშტაბური სამეცნიერო-ფანტასტიკური მოგზაურობა მომავლისა და უცნობისკენ. — Star Wars: A New Hope.",
     keywords: ["sci-fi", "ფანტასტიკა", "space", "adventure", "epic"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/8/87/StarWarsMoviePoster1977.jpg",
     trailer: "vZ734NWnAHA",
   },
   {
@@ -708,7 +708,7 @@ export const movies: Movie[] = [
     description:
       "მასშტაბური სამეცნიერო-ფანტასტიკური მოგზაურობა მომავლისა და უცნობისკენ. — The Empire Strikes Back.",
     keywords: ["sci-fi", "ფანტასტიკა", "space", "adventure", "epic"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/3/3f/The_Empire_Strikes_Back_%281980_film%29.jpg",
     trailer: "JNwNXF9Y6kY",
   },
   {
@@ -721,7 +721,7 @@ export const movies: Movie[] = [
     description:
       "მასშტაბური სამეცნიერო-ფანტასტიკური მოგზაურობა მომავლისა და უცნობისკენ. — Guardians of the Galaxy.",
     keywords: ["sci-fi", "ფანტასტიკა", "space", "action", "comedy"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/3/33/Guardians_of_the_Galaxy_%28film%29_poster.jpg",
     trailer: "d96cjJhvlMA",
   },
   {
@@ -734,7 +734,7 @@ export const movies: Movie[] = [
     description:
       "მასშტაბური სამეცნიერო-ფანტასტიკური მოგზაურობა მომავლისა და უცნობისკენ. — Tenet.",
     keywords: ["sci-fi", "ფანტასტიკა", "time", "thriller"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/1/14/Tenet_movie_poster.jpg",
     trailer: "LdOM0x0XDMo",
   },
   {
@@ -747,7 +747,7 @@ export const movies: Movie[] = [
     description:
       "მასშტაბური სამეცნიერო-ფანტასტიკური მოგზაურობა მომავლისა და უცნობისკენ. — District 9.",
     keywords: ["sci-fi", "ფანტასტიკა", "alien", "thriller"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/d/d7/District_nine_ver2.jpg",
     trailer: "DyLUwOcR5pk",
   },
   {
@@ -760,7 +760,7 @@ export const movies: Movie[] = [
     description:
       "მასშტაბური სამეცნიერო-ფანტასტიკური მოგზაურობა მომავლისა და უცნობისკენ. — Her.",
     keywords: ["sci-fi", "ფანტასტიკა", "ai", "love", "romance", "სიყვარული"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/4/44/Her2013Poster.jpg",
     trailer: "dJTU48_yghs",
   },
   {
@@ -773,7 +773,7 @@ export const movies: Movie[] = [
     description:
       "მასშტაბური სამეცნიერო-ფანტასტიკური მოგზაურობა მომავლისა და უცნობისკენ. — I Am Legend.",
     keywords: ["sci-fi", "ფანტასტიკა", "survival", "apocalypse", "lost", "დაკარგვა"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/d/df/I_am_legend_teaser.jpg",
     trailer: "dCA7NCRQTQU",
   },
   {
@@ -786,7 +786,7 @@ export const movies: Movie[] = [
     description:
       "მასშტაბური სამეცნიერო-ფანტასტიკური მოგზაურობა მომავლისა და უცნობისკენ. — Oblivion.",
     keywords: ["sci-fi", "ფანტასტიკა", "future", "action"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/2/2e/Oblivion2013Poster.jpg",
     trailer: "VntCPHYY8yw",
   },
   {
@@ -799,7 +799,7 @@ export const movies: Movie[] = [
     description:
       "მასშტაბური სამეცნიერო-ფანტასტიკური მოგზაურობა მომავლისა და უცნობისკენ. — The Terminator.",
     keywords: ["sci-fi", "ფანტასტიკა", "robot", "action"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/6/6d/The_Terminator.png",
     trailer: "k64P4l2Wmeg",
   },
   {
@@ -812,7 +812,7 @@ export const movies: Movie[] = [
     description:
       "მასშტაბური სამეცნიერო-ფანტასტიკური მოგზაურობა მომავლისა და უცნობისკენ. — Terminator 2: Judgment Day.",
     keywords: ["sci-fi", "ფანტასტიკა", "robot", "action"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/5/5e/Terminator_2-Judgment_Day.png",
     trailer: "CRRlbK5w8AE",
   },
   {
@@ -838,7 +838,7 @@ export const movies: Movie[] = [
     description:
       "ადრენალინით სავსე ექშენი განუწყვეტელი მოქმედებითა და დაძაბულობით. — Die Hard.",
     keywords: ["action", "ექშენი", "thriller", "christmas"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/c/ca/Die_Hard_%281988_film%29_poster.jpg",
     trailer: "jaJuwKCmJ78",
   },
   {
@@ -851,7 +851,7 @@ export const movies: Movie[] = [
     description:
       "ადრენალინით სავსე ექშენი განუწყვეტელი მოქმედებითა და დაძაბულობით. — The Matrix Reloaded.",
     keywords: ["action", "ექშენი", "sci-fi", "ფანტასტიკა"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/b/ba/Poster_-_The_Matrix_Reloaded.jpg",
     trailer: "kYzz0FSgpSU",
   },
   {
@@ -864,7 +864,7 @@ export const movies: Movie[] = [
     description:
       "ადრენალინით სავსე ექშენი განუწყვეტელი მოქმედებითა და დაძაბულობით. — Mission: Impossible - Fallout.",
     keywords: ["action", "ექშენი", "spy", "thriller"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/f/ff/MI_%E2%80%93_Fallout.jpg",
     trailer: "wb49-oV0F78",
   },
   {
@@ -877,7 +877,7 @@ export const movies: Movie[] = [
     description:
       "ადრენალინით სავსე ექშენი განუწყვეტელი მოქმედებითა და დაძაბულობით. — Skyfall.",
     keywords: ["action", "ექშენი", "spy", "thriller"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/a/a7/Skyfall_poster.jpg",
     trailer: "6kw1UVovByw",
   },
   {
@@ -890,7 +890,7 @@ export const movies: Movie[] = [
     description:
       "ადრენალინით სავსე ექშენი განუწყვეტელი მოქმედებითა და დაძაბულობით. — Casino Royale.",
     keywords: ["action", "ექშენი", "spy", "thriller"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/8/82/Casino_Royale_%282006_film_poster%29.jpg",
     trailer: "36mnx8dBbGE",
   },
   {
@@ -903,7 +903,7 @@ export const movies: Movie[] = [
     description:
       "ადრენალინით სავსე ექშენი განუწყვეტელი მოქმედებითა და დაძაბულობით. — The Avengers.",
     keywords: ["action", "ექშენი", "superhero", "sci-fi"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/8/8a/The_Avengers_%282012_film%29_poster.jpg",
     trailer: "eOrNdBpGMv8",
   },
   {
@@ -916,7 +916,7 @@ export const movies: Movie[] = [
     description:
       "ადრენალინით სავსე ექშენი განუწყვეტელი მოქმედებითა და დაძაბულობით. — Avengers: Endgame.",
     keywords: ["action", "ექშენი", "superhero", "epic"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/0/0d/Avengers_Endgame_poster.jpg",
     trailer: "TcMBFSGVi1c",
   },
   {
@@ -929,7 +929,7 @@ export const movies: Movie[] = [
     description:
       "ადრენალინით სავსე ექშენი განუწყვეტელი მოქმედებითა და დაძაბულობით. — Avengers: Infinity War.",
     keywords: ["action", "ექშენი", "superhero", "epic"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/4/4d/Avengers_Infinity_War_poster.jpg",
     trailer: "6ZfuNTqbHE8",
   },
   {
@@ -942,7 +942,7 @@ export const movies: Movie[] = [
     description:
       "ადრენალინით სავსე ექშენი განუწყვეტელი მოქმედებითა და დაძაბულობით. — Iron Man.",
     keywords: ["action", "ექშენი", "superhero"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/0/02/Iron_Man_%282008_film%29_poster.jpg",
     trailer: "8ugaeA-nMTc",
   },
   {
@@ -955,7 +955,7 @@ export const movies: Movie[] = [
     description:
       "ადრენალინით სავსე ექშენი განუწყვეტელი მოქმედებითა და დაძაბულობით. — Spider-Man: No Way Home.",
     keywords: ["action", "ექშენი", "superhero"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/0/00/Spider-Man_No_Way_Home_poster.jpg",
     trailer: "JfVOs4VSpmA",
   },
   {
@@ -968,7 +968,7 @@ export const movies: Movie[] = [
     description:
       "ადრენალინით სავსე ექშენი განუწყვეტელი მოქმედებითა და დაძაბულობით. — Black Panther.",
     keywords: ["action", "ექშენი", "superhero"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/d/d6/Black_Panther_%28film%29_poster.jpg",
     trailer: "xjDjIWPwcPU",
   },
   {
@@ -981,7 +981,7 @@ export const movies: Movie[] = [
     description:
       "ადრენალინით სავსე ექშენი განუწყვეტელი მოქმედებითა და დაძაბულობით. — Top Gun: Maverick.",
     keywords: ["action", "ექშენი", "military", "drama"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/1/13/Top_Gun_Maverick_Poster.jpg",
     trailer: "qSqVVswa420",
   },
   {
@@ -994,7 +994,7 @@ export const movies: Movie[] = [
     description:
       "ადრენალინით სავსე ექშენი განუწყვეტელი მოქმედებითა და დაძაბულობით. — John Wick: Chapter 4.",
     keywords: ["action", "ექშენი", "revenge", "thriller"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/d/d0/John_Wick_-_Chapter_4_promotional_poster.jpg",
     trailer: "qEVUtrk8_B4",
   },
   {
@@ -1007,7 +1007,7 @@ export const movies: Movie[] = [
     description:
       "ადრენალინით სავსე ექშენი განუწყვეტელი მოქმედებითა და დაძაბულობით. — Kingsman: The Secret Service.",
     keywords: ["action", "ექშენი", "spy", "comedy"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/8/8b/Kingsman_The_Secret_Service_poster.jpg",
     trailer: "kDA01hZ399k",
   },
   {
@@ -1020,7 +1020,7 @@ export const movies: Movie[] = [
     description:
       "ადრენალინით სავსე ექშენი განუწყვეტელი მოქმედებითა და დაძაბულობით. — Baby Driver.",
     keywords: ["action", "ექშენი", "heist", "chase"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/8/8e/Baby_Driver_poster.jpg",
     trailer: "z2z857RSfhk",
   },
   {
@@ -1033,7 +1033,7 @@ export const movies: Movie[] = [
     description:
       "ადრენალინით სავსე ექშენი განუწყვეტელი მოქმედებითა და დაძაბულობით. — The Bourne Identity.",
     keywords: ["action", "ექშენი", "spy", "thriller"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/a/ae/BourneIdentityfilm.jpg",
     trailer: "tuIXWmDh64k",
   },
   {
@@ -1046,7 +1046,7 @@ export const movies: Movie[] = [
     description:
       "ადრენალინით სავსე ექშენი განუწყვეტელი მოქმედებითა და დაძაბულობით. — 300.",
     keywords: ["action", "ექშენი", "war", "ომი", "epic", "history"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/5/5c/300poster.jpg",
     trailer: "W3zDvsyBd6M",
   },
   {
@@ -1059,7 +1059,7 @@ export const movies: Movie[] = [
     description:
       "ადრენალინით სავსე ექშენი განუწყვეტელი მოქმედებითა და დაძაბულობით. — The Batman.",
     keywords: ["action", "ექშენი", "superhero", "crime", "noir"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/f/ff/The_Batman_%28film%29_poster.jpg",
     trailer: "mqqft2x_Aa4",
   },
   {
@@ -1072,7 +1072,7 @@ export const movies: Movie[] = [
     description:
       "ადრენალინით სავსე ექშენი განუწყვეტელი მოქმედებითა და დაძაბულობით. — Logan.",
     keywords: ["action", "ექშენი", "superhero", "drama"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/3/37/Logan_2017_poster.jpg",
     trailer: "Div0iP65aZo",
   },
   {
@@ -1085,7 +1085,7 @@ export const movies: Movie[] = [
     description:
       "ღრმა, ემოციური დრამა ადამიანურ ბედზე, არჩევანსა და ცხოვრებაზე. — Goodfellas.",
     keywords: ["drama", "დრამა", "crime", "mafia"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/7/7b/Goodfellas.jpg",
     trailer: "2ilzidi_J8Q",
   },
   {
@@ -1098,7 +1098,7 @@ export const movies: Movie[] = [
     description:
       "ღრმა, ემოციური დრამა ადამიანურ ბედზე, არჩევანსა და ცხოვრებაზე. — Pulp Fiction.",
     keywords: ["drama", "დრამა", "crime", "thriller"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/3/3b/Pulp_Fiction_%281994%29_poster.jpg",
     trailer: "s7EdQ4FqbhY",
   },
   {
@@ -1111,7 +1111,7 @@ export const movies: Movie[] = [
     description:
       "ღრმა, ემოციური დრამა ადამიანურ ბედზე, არჩევანსა და ცხოვრებაზე. — Schindler's List.",
     keywords: ["drama", "დრამა", "war", "ომი", "history"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/3/38/Schindler%27s_List_movie.jpg",
     trailer: "gG22XNhtnoY",
   },
   {
@@ -1124,7 +1124,7 @@ export const movies: Movie[] = [
     description:
       "ღრმა, ემოციური დრამა ადამიანურ ბედზე, არჩევანსა და ცხოვრებაზე. — The Godfather Part II.",
     keywords: ["drama", "დრამა", "crime", "family", "mafia"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/0/03/Godfather_part_ii.jpg",
     trailer: "9O1Iy9od7-A",
   },
   {
@@ -1137,7 +1137,7 @@ export const movies: Movie[] = [
     description:
       "ღრმა, ემოციური დრამა ადამიანურ ბედზე, არჩევანსა და ცხოვრებაზე. — Whiplash.",
     keywords: ["drama", "დრამა", "music"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/0/01/Whiplash_poster.jpg",
     trailer: "7d_jQycdQGo",
   },
   {
@@ -1150,7 +1150,7 @@ export const movies: Movie[] = [
     description:
       "ღრმა, ემოციური დრამა ადამიანურ ბედზე, არჩევანსა და ცხოვრებაზე. — The Departed.",
     keywords: ["drama", "დრამა", "crime", "thriller"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/5/50/Departed234.jpg",
     trailer: "auYbpnEHBho",
   },
   {
@@ -1176,7 +1176,7 @@ export const movies: Movie[] = [
     description:
       "ღრმა, ემოციური დრამა ადამიანურ ბედზე, არჩევანსა და ცხოვრებაზე. — 12 Years a Slave.",
     keywords: ["drama", "დრამა", "history"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/5/5c/12_Years_a_Slave_film_poster.jpg",
     trailer: "z02Ie8wKKRg",
   },
   {
@@ -1189,7 +1189,7 @@ export const movies: Movie[] = [
     description:
       "ღრმა, ემოციური დრამა ადამიანურ ბედზე, არჩევანსა და ცხოვრებაზე. — A Beautiful Mind.",
     keywords: ["drama", "დრამა", "biography"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/b/b8/A_Beautiful_Mind_Poster.jpg",
     trailer: "aS_d0Ayjw4o",
   },
   {
@@ -1202,7 +1202,7 @@ export const movies: Movie[] = [
     description:
       "ღრმა, ემოციური დრამა ადამიანურ ბედზე, არჩევანსა და ცხოვრებაზე. — The Pursuit of Happyness.",
     keywords: ["drama", "დრამა", "family", "inspiration"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/8/81/Poster-pursuithappyness.jpg",
     trailer: "89Kq8SDyvfg",
   },
   {
@@ -1215,7 +1215,7 @@ export const movies: Movie[] = [
     description:
       "ღრმა, ემოციური დრამა ადამიანურ ბედზე, არჩევანსა და ცხოვრებაზე. — Dead Poets Society.",
     keywords: ["drama", "დრამა", "inspiration"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/8/86/Dead_poets_society.png",
     trailer: "2Mn5UChANqI",
   },
   {
@@ -1228,7 +1228,7 @@ export const movies: Movie[] = [
     description:
       "ღრმა, ემოციური დრამა ადამიანურ ბედზე, არჩევანსა და ცხოვრებაზე. — Good Will Hunting.",
     keywords: ["drama", "დრამა", "inspiration"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/5/52/Good_Will_Hunting.png",
     trailer: "PaZVjZEFkRs",
   },
   {
@@ -1241,7 +1241,7 @@ export const movies: Movie[] = [
     description:
       "ღრმა, ემოციური დრამა ადამიანურ ბედზე, არჩევანსა და ცხოვრებაზე. — Million Dollar Baby.",
     keywords: ["drama", "დრამა", "sport", "emotional"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/d/d3/Million_Dollar_Baby_poster.jpg",
     trailer: "GNMwuptdM8Q",
   },
   {
@@ -1254,7 +1254,7 @@ export const movies: Movie[] = [
     description:
       "ღრმა, ემოციური დრამა ადამიანურ ბედზე, არჩევანსა და ცხოვრებაზე. — The Wolf of Wall Street.",
     keywords: ["drama", "დრამა", "crime", "comedy"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/d/d8/The_Wolf_of_Wall_Street_%282013%29.png",
     trailer: "iszwuX1AK6A",
   },
   {
@@ -1267,7 +1267,7 @@ export const movies: Movie[] = [
     description:
       "ღრმა, ემოციური დრამა ადამიანურ ბედზე, არჩევანსა და ცხოვრებაზე. — Nomadland.",
     keywords: ["drama", "დრამა", "life"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/a/a5/Nomadland_poster.jpeg",
     trailer: "6sxCFZ8_d84",
   },
   {
@@ -1280,7 +1280,7 @@ export const movies: Movie[] = [
     description:
       "ღრმა, ემოციური დრამა ადამიანურ ბედზე, არჩევანსა და ცხოვრებაზე. — Manchester by the Sea.",
     keywords: ["drama", "დრამა", "loss", "grief", "lost", "დაკარგვა"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/d/de/Manchester_by_the_Sea.jpg",
     trailer: "gy_MTfaZQ-c",
   },
   {
@@ -1293,7 +1293,7 @@ export const movies: Movie[] = [
     description:
       "ღრმა, ემოციური დრამა ადამიანურ ბედზე, არჩევანსა და ცხოვრებაზე. — Prisoners.",
     keywords: ["drama", "დრამა", "thriller", "mystery"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/6/63/Prisoners2013Poster.jpg",
     trailer: "bpEIvUxLYlQ",
   },
   {
@@ -1306,7 +1306,7 @@ export const movies: Movie[] = [
     description:
       "ღრმა, ემოციური დრამა ადამიანურ ბედზე, არჩევანსა და ცხოვრებაზე. — Shutter Island.",
     keywords: ["drama", "დრამა", "thriller", "mystery"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/7/76/Shutterislandposter.jpg",
     trailer: "5iaYLCiq5RM",
   },
   {
@@ -1319,7 +1319,7 @@ export const movies: Movie[] = [
     description:
       "ღრმა, ემოციური დრამა ადამიანურ ბედზე, არჩევანსა და ცხოვრებაზე. — Gone Girl.",
     keywords: ["drama", "დრამა", "thriller", "mystery"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/0/05/Gone_Girl_Poster.jpg",
     trailer: "2-_-1nJf8Vg",
   },
   {
@@ -1332,7 +1332,7 @@ export const movies: Movie[] = [
     description:
       "ღრმა, ემოციური დრამა ადამიანურ ბედზე, არჩევანსა და ცხოვრებაზე. — No Country for Old Men.",
     keywords: ["drama", "დრამა", "crime", "thriller"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/8/8b/No_Country_for_Old_Men_poster.jpg",
     trailer: "38A__WT3-o0",
   },
   {
@@ -1345,7 +1345,7 @@ export const movies: Movie[] = [
     description:
       "ღრმა, ემოციური დრამა ადამიანურ ბედზე, არჩევანსა და ცხოვრებაზე. — There Will Be Blood.",
     keywords: ["drama", "დრამა", "history"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/d/da/There_Will_Be_Blood_Poster.jpg",
     trailer: "3vGVWTfaRRc",
   },
   {
@@ -1358,7 +1358,7 @@ export const movies: Movie[] = [
     description:
       "ღრმა, ემოციური დრამა ადამიანურ ბედზე, არჩევანსა და ცხოვრებაზე. — Oppenheimer.",
     keywords: ["drama", "დრამა", "history", "war", "ომი", "biography"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/4/4a/Oppenheimer_%28film%29.jpg",
     trailer: "uYPbbksJxIg",
   },
   {
@@ -1371,7 +1371,7 @@ export const movies: Movie[] = [
     description:
       "ღრმა, ემოციური დრამა ადამიანურ ბედზე, არჩევანსა და ცხოვრებაზე. — The Social Network.",
     keywords: ["drama", "დრამა", "biography", "tech"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/8/8c/The_Social_Network_film_poster.png",
     trailer: "lB95KLmpLR4",
   },
   {
@@ -1384,7 +1384,7 @@ export const movies: Movie[] = [
     description:
       "ღრმა, ემოციური დრამა ადამიანურ ბედზე, არჩევანსა და ცხოვრებაზე. — Slumdog Millionaire.",
     keywords: ["drama", "დრამა", "love", "სიყვარული"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/9/92/Slumdog_Millionaire_poster.png",
     trailer: "AIzbwV7on6Q",
   },
   {
@@ -1397,7 +1397,7 @@ export const movies: Movie[] = [
     description:
       "დამძაბავი საშინელებათა ფილმი, რომელიც სუნთქვას შეგიკრავს. — Hereditary.",
     keywords: ["horror", "საშიში", "scary", "thriller", "family"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/d/d9/Hereditary.png",
     trailer: "V6wWKNij_1M",
   },
   {
@@ -1410,7 +1410,7 @@ export const movies: Movie[] = [
     description:
       "დამძაბავი საშინელებათა ფილმი, რომელიც სუნთქვას შეგიკრავს. — The Exorcist.",
     keywords: ["horror", "საშიში", "scary", "supernatural", "classic"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/7/7b/Exorcist_ver2.jpg",
     trailer: "YDGw1MTEe9k",
   },
   {
@@ -1423,7 +1423,7 @@ export const movies: Movie[] = [
     description:
       "დამძაბავი საშინელებათა ფილმი, რომელიც სუნთქვას შეგიკრავს. — Midsommar.",
     keywords: ["horror", "საშიში", "scary", "thriller", "cult"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/4/47/Midsommar_%282019_film_poster%29.png",
     trailer: "1Vnghdsjmd0",
   },
   {
@@ -1436,7 +1436,7 @@ export const movies: Movie[] = [
     description:
       "დამძაბავი საშინელებათა ფილმი, რომელიც სუნთქვას შეგიკრავს. — Us.",
     keywords: ["horror", "საშიში", "scary", "thriller"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/0/00/Us_%282019%29_theatrical_poster.png",
     trailer: "hNCmb-4oXJA",
   },
   {
@@ -1449,7 +1449,7 @@ export const movies: Movie[] = [
     description:
       "დამძაბავი საშინელებათა ფილმი, რომელიც სუნთქვას შეგიკრავს. — The Babadook.",
     keywords: ["horror", "საშიში", "scary", "thriller", "psychological"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/d/d7/The-Babadook-Poster.jpg",
     trailer: "k5WQZzHmMwc",
   },
   {
@@ -1462,7 +1462,7 @@ export const movies: Movie[] = [
     description:
       "დამძაბავი საშინელებათა ფილმი, რომელიც სუნთქვას შეგიკრავს. — Insidious.",
     keywords: ["horror", "საშიში", "scary", "supernatural"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/2/2d/Insidious_poster.jpg",
     trailer: "zuZnRUcoWos",
   },
   {
@@ -1475,7 +1475,7 @@ export const movies: Movie[] = [
     description:
       "დამძაბავი საშინელებათა ფილმი, რომელიც სუნთქვას შეგიკრავს. — Sinister.",
     keywords: ["horror", "საშიში", "scary", "supernatural"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/f/f8/SinisterMoviePoster2012.jpg",
     trailer: "_kkGO_c9E1Q",
   },
   {
@@ -1488,7 +1488,7 @@ export const movies: Movie[] = [
     description:
       "დამძაბავი საშინელებათა ფილმი, რომელიც სუნთქვას შეგიკრავს. — The Witch.",
     keywords: ["horror", "საშიში", "scary", "thriller", "folk"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/b/bf/The_Witch_poster.png",
     trailer: "iQXmlf3Sefg",
   },
   {
@@ -1501,7 +1501,7 @@ export const movies: Movie[] = [
     description:
       "დამძაბავი საშინელებათა ფილმი, რომელიც სუნთქვას შეგიკრავს. — Nosferatu.",
     keywords: ["horror", "საშიში", "scary", "vampire", "gothic"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/4/48/Nosferatu_IMAX_poster_2024.jpg",
     trailer: "XZBWq2Jm9WY",
   },
   {
@@ -1514,7 +1514,7 @@ export const movies: Movie[] = [
     description:
       "დამძაბავი საშინელებათა ფილმი, რომელიც სუნთქვას შეგიკრავს. — Halloween.",
     keywords: ["horror", "საშიში", "scary", "slasher", "classic"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/a/af/Halloween_%281978%29_theatrical_poster.jpg",
     trailer: "",
   },
   {
@@ -1527,7 +1527,7 @@ export const movies: Movie[] = [
     description:
       "დამძაბავი საშინელებათა ფილმი, რომელიც სუნთქვას შეგიკრავს. — Scream.",
     keywords: ["horror", "საშიში", "scary", "slasher", "thriller"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/8/86/Scream_%281996_film%29_poster.jpg",
     trailer: "tAOwFbS_6Bg",
   },
   {
@@ -1540,7 +1540,7 @@ export const movies: Movie[] = [
     description:
       "დამძაბავი საშინელებათა ფილმი, რომელიც სუნთქვას შეგიკრავს. — The Ring.",
     keywords: ["horror", "საშიში", "scary", "supernatural", "thriller"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/3/37/Theringpostere.jpg",
     trailer: "1lS5xWU9_Nc",
   },
   {
@@ -1553,7 +1553,7 @@ export const movies: Movie[] = [
     description:
       "დამძაბავი საშინელებათა ფილმი, რომელიც სუნთქვას შეგიკრავს. — Smile.",
     keywords: ["horror", "საშიში", "scary", "thriller", "psychological"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/7/7f/Smile_%282022_film%29.jpg",
     trailer: "hFj4dj2mtdA",
   },
   {
@@ -1566,7 +1566,7 @@ export const movies: Movie[] = [
     description:
       "დამძაბავი საშინელებათა ფილმი, რომელიც სუნთქვას შეგიკრავს. — The Nun.",
     keywords: ["horror", "საშიში", "scary", "supernatural"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/3/34/TheNunPoster.jpg",
     trailer: "pzD9zGcUNrw",
   },
   {
@@ -1579,7 +1579,7 @@ export const movies: Movie[] = [
     description:
       "გულის ამაჩუყებელი სასიყვარულო ისტორია, სადაც გრძნობები ბედს ეჯახება. — Call Me by Your Name.",
     keywords: ["love", "romance", "სიყვარული", "drama"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/c/c9/CallMeByYourName2017.png",
     trailer: "Z9AYPxH5NTM",
   },
   {
@@ -1592,7 +1592,7 @@ export const movies: Movie[] = [
     description:
       "გულის ამაჩუყებელი სასიყვარულო ისტორია, სადაც გრძნობები ბედს ეჯახება. — 500 Days of Summer.",
     keywords: ["love", "romance", "სიყვარული", "comedy", "drama"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/d/d1/Five_hundred_days_of_summer.jpg",
     trailer: "PsD0NpFSADM",
   },
   {
@@ -1605,7 +1605,7 @@ export const movies: Movie[] = [
     description:
       "გულის ამაჩუყებელი სასიყვარულო ისტორია, სადაც გრძნობები ბედს ეჯახება. — Before Sunrise.",
     keywords: ["love", "romance", "სიყვარული", "drama"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/d/da/Before_Sunrise_poster.jpg",
     trailer: "Tp7xntWA8Zk",
   },
   {
@@ -1618,7 +1618,7 @@ export const movies: Movie[] = [
     description:
       "გულის ამაჩუყებელი სასიყვარულო ისტორია, სადაც გრძნობები ბედს ეჯახება. — Me Before You.",
     keywords: ["love", "romance", "სიყვარული", "drama", "emotional"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/f/fd/Me_Before_You_%28film%29.jpg",
     trailer: "Eh993__rOxA",
   },
   {
@@ -1631,7 +1631,7 @@ export const movies: Movie[] = [
     description:
       "გულის ამაჩუყებელი სასიყვარულო ისტორია, სადაც გრძნობები ბედს ეჯახება. — A Star Is Born.",
     keywords: ["love", "romance", "სიყვარული", "music", "drama"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/3/39/A_Star_is_Born.png",
     trailer: "nSbzyEJ8X9E",
   },
   {
@@ -1644,7 +1644,7 @@ export const movies: Movie[] = [
     description:
       "გულის ამაჩუყებელი სასიყვარულო ისტორია, სადაც გრძნობები ბედს ეჯახება. — The Fault in Our Stars.",
     keywords: ["love", "romance", "სიყვარული", "drama", "emotional"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/4/41/The_Fault_in_Our_Stars_%28Official_Film_Poster%29.png",
     trailer: "H0Y6bqjIQvo",
   },
   {
@@ -1657,7 +1657,7 @@ export const movies: Movie[] = [
     description:
       "გულის ამაჩუყებელი სასიყვარულო ისტორია, სადაც გრძნობები ბედს ეჯახება. — Ghost.",
     keywords: ["love", "romance", "სიყვარული", "supernatural", "drama"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/4/41/Ghost_%281990_movie_poster%29.jpg",
     trailer: "GVAgg_lPFVc",
   },
   {
@@ -1670,7 +1670,7 @@ export const movies: Movie[] = [
     description:
       "გულის ამაჩუყებელი სასიყვარულო ისტორია, სადაც გრძნობები ბედს ეჯახება. — Blue Valentine.",
     keywords: ["love", "romance", "სიყვარული", "drama"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/0/04/Blue_Valentine_film.jpg",
     trailer: "gzWDJs5-vBw",
   },
   {
@@ -1683,7 +1683,7 @@ export const movies: Movie[] = [
     description:
       "გულის ამაჩუყებელი სასიყვარულო ისტორია, სადაც გრძნობები ბედს ეჯახება. — Brooklyn.",
     keywords: ["love", "romance", "სიყვარული", "drama"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/5/5b/Brooklyn_FilmPoster.jpg",
     trailer: "15syDwC000k",
   },
   {
@@ -1696,7 +1696,7 @@ export const movies: Movie[] = [
     description:
       "გულის ამაჩუყებელი სასიყვარულო ისტორია, სადაც გრძნობები ბედს ეჯახება. — About Time.",
     keywords: ["love", "romance", "სიყვარული", "comedy", "time"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/7/7c/About_Time_%282013_film%29_Poster.jpg",
     trailer: "MvGXqjS-Uxg",
   },
   {
@@ -1709,7 +1709,7 @@ export const movies: Movie[] = [
     description:
       "ფერადი და თბილი სათავგადასავლო ანიმაცია, რომელიც მთელ ოჯახს მოხიბლავს. — Inside Out.",
     keywords: ["animation", "მულტფილმი", "family", "emotion"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/0/0a/Inside_Out_%282015_film%29_poster.jpg",
     trailer: "",
   },
   {
@@ -1722,7 +1722,7 @@ export const movies: Movie[] = [
     description:
       "ფერადი და თბილი სათავგადასავლო ანიმაცია, რომელიც მთელ ოჯახს მოხიბლავს. — Ratatouille.",
     keywords: ["animation", "მულტფილმი", "family", "comedy"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/5/50/RatatouillePoster.jpg",
     trailer: "c3sBBRxDAqk",
   },
   {
@@ -1735,7 +1735,7 @@ export const movies: Movie[] = [
     description:
       "ფერადი და თბილი სათავგადასავლო ანიმაცია, რომელიც მთელ ოჯახს მოხიბლავს. — How to Train Your Dragon.",
     keywords: ["animation", "მულტფილმი", "family", "adventure"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/9/99/How_to_Train_Your_Dragon_Poster.jpg",
     trailer: "2AsBksz0oT4",
   },
   {
@@ -1748,7 +1748,7 @@ export const movies: Movie[] = [
     description:
       "ფერადი და თბილი სათავგადასავლო ანიმაცია, რომელიც მთელ ოჯახს მოხიბლავს. — Kung Fu Panda.",
     keywords: ["animation", "მულტფილმი", "family", "comedy", "action"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/7/76/Kungfupanda.jpg",
     trailer: "10Q8dhSHOGA",
   },
   {
@@ -1761,7 +1761,7 @@ export const movies: Movie[] = [
     description:
       "ფერადი და თბილი სათავგადასავლო ანიმაცია, რომელიც მთელ ოჯახს მოხიბლავს. — Zootopia.",
     keywords: ["animation", "მულტფილმი", "family", "comedy"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/9/96/Zootopia_%28movie_poster%29.jpg",
     trailer: "jWM0ct-OLsM",
   },
   {
@@ -1774,7 +1774,7 @@ export const movies: Movie[] = [
     description:
       "ფერადი და თბილი სათავგადასავლო ანიმაცია, რომელიც მთელ ოჯახს მოხიბლავს. — Moana.",
     keywords: ["animation", "მულტფილმი", "family", "musical", "adventure"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/2/26/Moana_Teaser_Poster.jpg",
     trailer: "LKFuXETZUsI",
   },
   {
@@ -1787,7 +1787,7 @@ export const movies: Movie[] = [
     description:
       "ფერადი და თბილი სათავგადასავლო ანიმაცია, რომელიც მთელ ოჯახს მოხიბლავს. — Despicable Me.",
     keywords: ["animation", "მულტფილმი", "family", "comedy"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/c/c0/Despicable_Me_%282010_animated_feature_film%29.jpg",
     trailer: "sUkZFepDljo",
   },
   {
@@ -1800,7 +1800,7 @@ export const movies: Movie[] = [
     description:
       "ფერადი და თბილი სათავგადასავლო ანიმაცია, რომელიც მთელ ოჯახს მოხიბლავს. — The Incredibles.",
     keywords: ["animation", "მულტფილმი", "family", "action", "superhero"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/2/27/The_Incredibles_%282004_animated_feature_film%29.jpg",
     trailer: "-UaGUdNJdRQ",
   },
   {
@@ -1813,7 +1813,7 @@ export const movies: Movie[] = [
     description:
       "ფერადი და თბილი სათავგადასავლო ანიმაცია, რომელიც მთელ ოჯახს მოხიბლავს. — Monsters, Inc..",
     keywords: ["animation", "მულტფილმი", "family", "comedy"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/6/63/Monsters_Inc.JPG",
     trailer: "kN5eD5tzbkc",
   },
   {
@@ -1826,7 +1826,7 @@ export const movies: Movie[] = [
     description:
       "ფერადი და თბილი სათავგადასავლო ანიმაცია, რომელიც მთელ ოჯახს მოხიბლავს. — Your Name.",
     keywords: ["animation", "მულტფილმი", "family", "anime", "love", "romance", "სიყვარული"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/0/0b/Your_Name_poster.png",
     trailer: "xU47nhruN-Q",
   },
   {
@@ -1839,7 +1839,7 @@ export const movies: Movie[] = [
     description:
       "ფერადი და თბილი სათავგადასავლო ანიმაცია, რომელიც მთელ ოჯახს მოხიბლავს. — Princess Mononoke.",
     keywords: ["animation", "მულტფილმი", "family", "anime", "adventure"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/8/8c/Princess_Mononoke_Japanese_poster.png",
     trailer: "4OiMOHRDs14",
   },
   {
@@ -1852,7 +1852,7 @@ export const movies: Movie[] = [
     description:
       "ფერადი და თბილი სათავგადასავლო ანიმაცია, რომელიც მთელ ოჯახს მოხიბლავს. — Howl's Moving Castle.",
     keywords: ["animation", "მულტფილმი", "family", "anime", "fantasy"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/a/a0/Howls-moving-castleposter.jpg",
     trailer: "iwROgK94zcM",
   },
   {
@@ -1865,7 +1865,7 @@ export const movies: Movie[] = [
     description:
       "ფერადი და თბილი სათავგადასავლო ანიმაცია, რომელიც მთელ ოჯახს მოხიბლავს. — Encanto.",
     keywords: ["animation", "მულტფილმი", "family", "musical"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/8/83/Encanto_poster.jpg",
     trailer: "CaimKeDcudo",
   },
   {
@@ -1878,7 +1878,7 @@ export const movies: Movie[] = [
     description:
       "ფერადი და თბილი სათავგადასავლო ანიმაცია, რომელიც მთელ ოჯახს მოხიბლავს. — Soul.",
     keywords: ["animation", "მულტფილმი", "family", "music"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/3/39/Soul_%282020_film%29_poster.jpg",
     trailer: "xOsLIiBStEs",
   },
   {
@@ -1891,7 +1891,7 @@ export const movies: Movie[] = [
     description:
       "მხიარული და მსუბუქი კომედია, რომელიც განწყობას აგიმაღლებს. — The Hangover.",
     keywords: ["comedy", "კომედია", "funny", "adventure"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/b/b9/Hangoverposter09.jpg",
     trailer: "tcdUhdOlz9M",
   },
   {
@@ -1904,7 +1904,7 @@ export const movies: Movie[] = [
     description:
       "მხიარული და მსუბუქი კომედია, რომელიც განწყობას აგიმაღლებს. — Superbad.",
     keywords: ["comedy", "კომედია", "funny", "teen"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/8/8b/Superbad_Poster.png",
     trailer: "4eaZ_48ZYog",
   },
   {
@@ -1917,7 +1917,7 @@ export const movies: Movie[] = [
     description:
       "მხიარული და მსუბუქი კომედია, რომელიც განწყობას აგიმაღლებს. — 21 Jump Street.",
     keywords: ["comedy", "კომედია", "funny", "action"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/9/93/21JumpStreetfilm.jpg",
     trailer: "RZ-Gs-72Jyw",
   },
   {
@@ -1930,7 +1930,7 @@ export const movies: Movie[] = [
     description:
       "მხიარული და მსუბუქი კომედია, რომელიც განწყობას აგიმაღლებს. — Dumb and Dumber.",
     keywords: ["comedy", "კომედია", "funny", "classic"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/6/64/Dumbanddumber.jpg",
     trailer: "l13yPhimE3o",
   },
   {
@@ -1943,7 +1943,7 @@ export const movies: Movie[] = [
     description:
       "მხიარული და მსუბუქი კომედია, რომელიც განწყობას აგიმაღლებს. — Bridesmaids.",
     keywords: ["comedy", "კომედია", "funny", "friendship"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/d/df/BridesmaidsPoster.jpg",
     trailer: "Ba2_Q8pl9UI",
   },
   {
@@ -1956,7 +1956,7 @@ export const movies: Movie[] = [
     description:
       "მხიარული და მსუბუქი კომედია, რომელიც განწყობას აგიმაღლებს. — Borat.",
     keywords: ["comedy", "კომედია", "funny", "satire"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/3/39/Borat_ver2.jpg",
     trailer: "Jgi8y1KGrGw",
   },
   {
@@ -1969,7 +1969,7 @@ export const movies: Movie[] = [
     description:
       "მხიარული და მსუბუქი კომედია, რომელიც განწყობას აგიმაღლებს. — Groundhog Day.",
     keywords: ["comedy", "კომედია", "funny", "time", "classic"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/b/b1/Groundhog_Day_%28movie_poster%29.jpg",
     trailer: "tSVeDx9fk60",
   },
   {
@@ -1982,7 +1982,7 @@ export const movies: Movie[] = [
     description:
       "მხიარული და მსუბუქი კომედია, რომელიც განწყობას აგიმაღლებს. — Deadpool.",
     keywords: ["comedy", "კომედია", "funny", "action", "superhero"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/2/23/Deadpool_%282016_poster%29.png",
     trailer: "ONHBaC-pfsk",
   },
   {
@@ -1995,7 +1995,7 @@ export const movies: Movie[] = [
     description:
       "ომის სისასტიკესა და ადამიანურ სიმამაცეზე მოთხრობილი ძლიერი ისტორია. — Dunkirk.",
     keywords: ["war", "ომი", "history", "thriller"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/1/15/Dunkirk_Film_poster.jpg",
     trailer: "F-eMt3SrfFU",
   },
   {
@@ -2008,7 +2008,7 @@ export const movies: Movie[] = [
     description:
       "ომის სისასტიკესა და ადამიანურ სიმამაცეზე მოთხრობილი ძლიერი ისტორია. — Hacksaw Ridge.",
     keywords: ["war", "ომი", "history", "biography"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/8/8a/Hacksaw_Ridge_poster.png",
     trailer: "s2-1hz1juBI",
   },
   {
@@ -2021,7 +2021,7 @@ export const movies: Movie[] = [
     description:
       "ომის სისასტიკესა და ადამიანურ სიმამაცეზე მოთხრობილი ძლიერი ისტორია. — Apocalypse Now.",
     keywords: ["war", "ომი", "history", "classic", "epic"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/c/c2/Apocalypse_Now_poster.jpg",
     trailer: "FTjG-Aux_yQ",
   },
   {
@@ -2034,7 +2034,7 @@ export const movies: Movie[] = [
     description:
       "ომის სისასტიკესა და ადამიანურ სიმამაცეზე მოთხრობილი ძლიერი ისტორია. — Full Metal Jacket.",
     keywords: ["war", "ომი", "history", "classic"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/9/99/Full_Metal_Jacket_poster.jpg",
     trailer: "Lv2mJKcHNbA",
   },
   {
@@ -2047,7 +2047,7 @@ export const movies: Movie[] = [
     description:
       "ომის სისასტიკესა და ადამიანურ სიმამაცეზე მოთხრობილი ძლიერი ისტორია. — Platoon.",
     keywords: ["war", "ომი", "history", "classic"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/a/a9/Platoon_posters_86.jpg",
     trailer: "H-5Ff3sTUcU",
   },
   {
@@ -2060,8 +2060,400 @@ export const movies: Movie[] = [
     description:
       "ომის სისასტიკესა და ადამიანურ სიმამაცეზე მოთხრობილი ძლიერი ისტორია. — The Pianist.",
     keywords: ["war", "ომი", "history", "biography", "drama"],
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/a/a6/The_Pianist_movie.jpg",
     trailer: "fPFxUeK_bpc",
+  },
+
+  // ─────────────── ახალი დამატებული ფილმები ───────────────
+  {
+    id: "the-prestige",
+    title: "The Prestige",
+    year: 2006,
+    rating: 8.5,
+    duration: "2სთ 10წთ",
+    category: "sci-fi",
+    description:
+      "ორი ილუზიონისტი სასიკვდილო მეტოქეობაში ერთვება, სადაც საიდუმლოს გასაღები საკუთარ თავზეც კი ძვირად ჯდება.",
+    keywords: ["magic", "საიდუმლო", "mystery", "rivalry", "sci-fi", "ფანტასტიკა", "thriller"],
+    image: "https://upload.wikimedia.org/wikipedia/en/d/d2/Prestige_poster.jpg",
+    trailer: "RLtaA9fFNXU",
+  },
+  {
+    id: "children-of-men",
+    title: "Children of Men",
+    year: 2006,
+    rating: 7.9,
+    duration: "1სთ 49წთ",
+    category: "sci-fi",
+    description:
+      "მსოფლიოში, სადაც ბავშვები აღარ იბადებიან, ერთი კაცი უნდა დაიცვას უკანასკნელი ორსული ქალი კაცობრიობის იმედად.",
+    keywords: ["dystopia", "მომავალი", "future", "survival", "sci-fi", "ფანტასტიკა"],
+    image: "https://upload.wikimedia.org/wikipedia/en/f/fc/Children_of_men_ver4.jpg",
+    trailer: "2VT2apoX90o",
+  },
+  {
+    id: "moon",
+    title: "Moon",
+    year: 2009,
+    rating: 7.8,
+    duration: "1სთ 37წთ",
+    category: "sci-fi",
+    description:
+      "მთვარეზე მარტოსული მუშა კონტრაქტის დასრულებამდე საკუთარი არსებობის შემაძრწუნებელ სიმართლეს აღმოაჩენს.",
+    keywords: ["space", "კოსმოსი", "isolation", "clone", "sci-fi", "ფანტასტიკა"],
+    image: "https://upload.wikimedia.org/wikipedia/en/a/af/Moon_%282009_film%29.jpg",
+    trailer: "WWoDBcSW4_c",
+  },
+  {
+    id: "the-dark-knight-rises",
+    title: "The Dark Knight Rises",
+    year: 2012,
+    rating: 8.4,
+    duration: "2სთ 44წთ",
+    category: "action",
+    description:
+      "რვა წლის შემდეგ ბეტმენი ბრუნდება, რათა გოთემი გადაარჩინოს ბოროტი ბეინის ტერორისგან.",
+    keywords: ["batman", "გმირი", "hero", "dc", "action", "ექშენი"],
+    image: "https://upload.wikimedia.org/wikipedia/en/8/83/Dark_knight_rises_poster.jpg",
+    trailer: "GokKUqLcvD8",
+  },
+  {
+    id: "heat",
+    title: "Heat",
+    year: 1995,
+    rating: 8.3,
+    duration: "2სთ 50წთ",
+    category: "action",
+    description:
+      "გამოცდილი დეტექტივი და დახვეწილი ყაჩაღი ბედისწერულ დაპირისპირებაში ხვდებიან ლოს-ანჯელესის ქუჩებში.",
+    keywords: ["heist", "ქურდობა", "crime", "police", "action", "ექშენი"],
+    image: "https://upload.wikimedia.org/wikipedia/en/6/6c/Heatposter.jpg",
+    trailer: "2GfZl4kuVNI",
+  },
+  {
+    id: "wonder-woman",
+    title: "Wonder Woman",
+    year: 2017,
+    rating: 7.4,
+    duration: "2სთ 21წთ",
+    category: "action",
+    description:
+      "ამორძალი დიანა ტოვებს კუნძულს, რათა ომში ჩაერთოს და კაცობრიობა ბოროტებისგან დაიცვას.",
+    keywords: ["hero", "გმირი", "dc", "warrior", "action", "ექშენი"],
+    image: "https://upload.wikimedia.org/wikipedia/en/b/b0/Wonder_Woman_%282017_film%29_poster.jpg",
+    trailer: "1Q8fG0TtVAY",
+  },
+  {
+    id: "captain-america-civil-war",
+    title: "Captain America: Civil War",
+    year: 2016,
+    rating: 7.8,
+    duration: "2სთ 27წთ",
+    category: "action",
+    description:
+      "შურისმაძიებლები ორ ბანაკად იყოფიან, როცა კონტროლის საკითხი მათ შორის ჭეშმარიტ ომს იწვევს.",
+    keywords: ["marvel", "გმირი", "hero", "avengers", "action", "ექშენი"],
+    image: "https://upload.wikimedia.org/wikipedia/en/5/53/Captain_America_Civil_War_poster.jpg",
+    trailer: "dKrVegVI0Us",
+  },
+  {
+    id: "american-beauty",
+    title: "American Beauty",
+    year: 1999,
+    rating: 8.3,
+    duration: "2სთ 2წთ",
+    category: "drama",
+    description:
+      "საშუალო ასაკის კაცი ცხოვრებისეულ კრიზისში ცდილობს თავიდან იპოვოს აზრი და თავისუფლება.",
+    keywords: ["life", "ცხოვრება", "family", "crisis", "drama", "დრამა"],
+    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/American_Beauty_1999_film_poster.jpg",
+    trailer: "XCxzXblZyfQ",
+  },
+  {
+    id: "requiem-for-a-dream",
+    title: "Requiem for a Dream",
+    year: 2000,
+    rating: 8.3,
+    duration: "1სთ 42წთ",
+    category: "drama",
+    description:
+      "ოთხი ადამიანის ოცნებები ნელ-ნელა ინგრევა დამოკიდებულების უფსკრულში.",
+    keywords: ["addiction", "ტკივილი", "tragedy", "dream", "drama", "დრამა"],
+    image: "https://upload.wikimedia.org/wikipedia/en/9/92/Requiem_for_a_dream.jpg",
+    trailer: "0nU7dC9bIDg",
+  },
+  {
+    id: "into-the-wild",
+    title: "Into the Wild",
+    year: 2007,
+    rating: 8.1,
+    duration: "2სთ 28წთ",
+    category: "drama",
+    description:
+      "ახალგაზრდა კაცი ტოვებს ყველაფერს და ველურ ბუნებაში ეძებს ცხოვრების ჭეშმარიტ აზრს.",
+    keywords: ["adventure", "თავისუფლება", "freedom", "nature", "drama", "დრამა"],
+    image: "https://upload.wikimedia.org/wikipedia/en/d/dc/Into_the_Wild_%282007_film_poster%29.png",
+    trailer: "XZG1FzyB8DI",
+  },
+  {
+    id: "the-imitation-game",
+    title: "The Imitation Game",
+    year: 2014,
+    rating: 8.0,
+    duration: "1სთ 54წთ",
+    category: "drama",
+    description:
+      "გენიოსი მათემატიკოსი ალან ტიურინგი მეორე მსოფლიო ომში ნაცისტების საიდუმლო კოდს ხსნის.",
+    keywords: ["genius", "ისტორია", "war", "code", "drama", "დრამა"],
+    image: "https://upload.wikimedia.org/wikipedia/en/8/87/The_Imitation_Game_%282014%29.png",
+    trailer: "nuPZUUED5uk",
+  },
+  {
+    id: "green-book",
+    title: "Green Book",
+    year: 2018,
+    rating: 8.2,
+    duration: "2სთ 10წთ",
+    category: "drama",
+    description:
+      "შავკანიანი პიანისტი და მისი თეთრკანიანი მძღოლი ერთად მოგზაურობენ სამხრეთის რასიზმის ფონზე.",
+    keywords: ["friendship", "მეგობრობა", "race", "journey", "drama", "დრამა"],
+    image: "https://upload.wikimedia.org/wikipedia/en/5/5b/Green_Book_%282018_poster%29.png",
+    trailer: "QkZxoko_HC0",
+  },
+  {
+    id: "the-conjuring-2",
+    title: "The Conjuring 2",
+    year: 2016,
+    rating: 7.3,
+    duration: "2სთ 14წთ",
+    category: "horror",
+    description:
+      "წყვილი პარანორმალური მკვლევრები ლონდონში ოჯახს ბოროტი სულისგან იცავენ.",
+    keywords: ["ghost", "მოჩვენება", "demon", "horror", "საშიში", "paranormal"],
+    image: "https://upload.wikimedia.org/wikipedia/en/2/27/The_Conjuring_2.jpg",
+    trailer: "VFsmuRPClr4",
+  },
+  {
+    id: "it-chapter-two",
+    title: "It Chapter Two",
+    year: 2019,
+    rating: 6.5,
+    duration: "2სთ 49წთ",
+    category: "horror",
+    description:
+      "ოცდაშვიდი წლის შემდეგ მოზრდილი მეგობრები ბრუნდებიან, რომ ბოროტ პენივაისს დაუპირისპირდნენ.",
+    keywords: ["clown", "შიში", "fear", "horror", "საშიში", "evil"],
+    image: "https://upload.wikimedia.org/wikipedia/en/d/d8/It_Chapter_Two_Poster.jpg",
+    trailer: "xhJ5P7Up3jA",
+  },
+  {
+    id: "the-invisible-man",
+    title: "The Invisible Man",
+    year: 2020,
+    rating: 7.1,
+    duration: "2სთ 4წთ",
+    category: "horror",
+    description:
+      "ქალი დარწმუნებულია, რომ მისი გარდაცვლილი ყოფილი პარტნიორი უხილავად მისდევს.",
+    keywords: ["invisible", "ტერორი", "stalker", "horror", "საშიში", "thriller"],
+    image: "https://upload.wikimedia.org/wikipedia/en/3/3a/The_Invisible_Man_%282020_film%29_-_release_poster.jpg",
+    trailer: "WO_FJdiY9dA",
+  },
+  {
+    id: "28-days-later",
+    title: "28 Days Later",
+    year: 2002,
+    rating: 7.5,
+    duration: "1სთ 53წთ",
+    category: "horror",
+    description:
+      "ვირუსის აფეთქების შემდეგ გადარჩენილები ცდილობენ გაექცნენ ინფიცირებულთა ურდოს.",
+    keywords: ["zombie", "ვირუსი", "survival", "horror", "საშიში", "apocalypse"],
+    image: "https://upload.wikimedia.org/wikipedia/en/e/e4/28_days_later.jpg",
+    trailer: "mWEhfF27O0c",
+  },
+  {
+    id: "silver-linings-playbook",
+    title: "Silver Linings Playbook",
+    year: 2012,
+    rating: 7.7,
+    duration: "2სთ 2წთ",
+    category: "romance",
+    description:
+      "ორი დაზიანებული სული ცეკვის რიტმში პოულობს იმედსა და სიყვარულს.",
+    keywords: ["love", "სიყვარული", "dance", "hope", "romance", "recovery"],
+    image: "https://upload.wikimedia.org/wikipedia/en/9/9a/Silver_Linings_Playbook_Poster.jpg",
+    trailer: "QJNdf_7pjb4",
+  },
+  {
+    id: "crazy-stupid-love",
+    title: "Crazy, Stupid, Love",
+    year: 2011,
+    rating: 7.4,
+    duration: "1სთ 58წთ",
+    category: "romance",
+    description:
+      "განქორწინებული კაცი სასიყვარულო ხელოვნებას სწავლობს, სანამ გულს ნამდვილ გრძნობას მიაგნებს.",
+    keywords: ["love", "სიყვარული", "comedy", "relationship", "romance", "dating"],
+    image: "https://upload.wikimedia.org/wikipedia/en/7/78/CrazyStupidLovePoster.jpg",
+    trailer: "8iCwtxJejik",
+  },
+  {
+    id: "the-vow",
+    title: "The Vow",
+    year: 2012,
+    rating: 6.8,
+    duration: "1სთ 44წთ",
+    category: "romance",
+    description:
+      "ავარიის შემდეგ ქალი მეხსიერებას კარგავს და ქმარი ცდილობს მისი გულის ხელახლა მოგებას.",
+    keywords: ["love", "სიყვარული", "memory", "marriage", "romance", "drama"],
+    image: "https://upload.wikimedia.org/wikipedia/en/c/c2/The_Vow_Poster.jpg",
+    trailer: "PcL24s-S6ns",
+  },
+  {
+    id: "toy-story-3",
+    title: "Toy Story 3",
+    year: 2010,
+    rating: 8.3,
+    duration: "1სთ 43წთ",
+    category: "animation",
+    description:
+      "სათამაშოები ახალ თავგადასავალში ხვდებიან, როცა ენდი კოლეჯში მიდის.",
+    keywords: ["toys", "მეგობრობა", "pixar", "animation", "მულტფილმები", "family"],
+    image: "https://upload.wikimedia.org/wikipedia/en/6/69/Toy_Story_3_poster.jpg",
+    trailer: "2BlMNH1QTeE",
+  },
+  {
+    id: "big-hero-6",
+    title: "Big Hero 6",
+    year: 2014,
+    rating: 7.8,
+    duration: "1სთ 42წთ",
+    category: "animation",
+    description:
+      "ბიჭი და კეთილი რობოტი ბაიმაქსი გმირთა გუნდს ქმნიან ქალაქის გადასარჩენად.",
+    keywords: ["robot", "რობოტი", "disney", "animation", "მულტფილმები", "hero"],
+    image: "https://upload.wikimedia.org/wikipedia/en/4/4b/Big_Hero_6_%28film%29_poster.jpg",
+    trailer: "z3biFxZIJOQ",
+  },
+  {
+    id: "luca",
+    title: "Luca",
+    year: 2021,
+    rating: 7.4,
+    duration: "1სთ 35წთ",
+    category: "animation",
+    description:
+      "ზღვის ურჩხული ბიჭი იტალიურ ქალაქში ზაფხულის დაუვიწყარ თავგადასავალს განიცდის.",
+    keywords: ["summer", "ზღვა", "pixar", "friendship", "animation", "მულტფილმები"],
+    image: "https://upload.wikimedia.org/wikipedia/en/3/33/Luca_%282021_film%29.png",
+    trailer: "mYfJxlgR2jw",
+  },
+  {
+    id: "klaus",
+    title: "Klaus",
+    year: 2019,
+    rating: 8.1,
+    duration: "1სთ 36წთ",
+    category: "animation",
+    description:
+      "ეგოისტი ფოსტალიონი და იდუმალი სათამაშოების ოსტატი ერთად ნამდვილ საშობაო სასწაულს ქმნიან.",
+    keywords: ["christmas", "შობა", "kindness", "animation", "მულტფილმები", "family"],
+    image: "https://upload.wikimedia.org/wikipedia/en/2/26/Klaus_poster.jpeg",
+    trailer: "taE3PwurhYM",
+  },
+  {
+    id: "the-truman-show",
+    title: "The Truman Show",
+    year: 1998,
+    rating: 8.2,
+    duration: "1სთ 43წთ",
+    category: "comedy",
+    description:
+      "კაცი აღმოაჩენს, რომ მთელი მისი ცხოვრება რეალითი-შოუა, რომელსაც მილიონები უყურებენ.",
+    keywords: ["reality", "ცხოვრება", "satire", "comedy", "კომედია", "drama"],
+    image: "https://upload.wikimedia.org/wikipedia/en/c/cd/Trumanshow.jpg",
+    trailer: "dlnmQbPGuls",
+  },
+  {
+    id: "anchorman",
+    title: "Anchorman",
+    year: 2004,
+    rating: 7.2,
+    duration: "1სთ 34წთ",
+    category: "comedy",
+    description:
+      "70-იანების ეგოისტი წამყვანი ბრძოლას იწყებს, როცა სტუდიაში ნიჭიერი ქალი ჩნდება.",
+    keywords: ["news", "სიცილი", "funny", "comedy", "კომედია", "satire"],
+    image: "https://upload.wikimedia.org/wikipedia/en/6/64/Movie_poster_Anchorman_The_Legend_of_Ron_Burgundy.jpg",
+    trailer: "j3tKJoidT_o",
+  },
+  {
+    id: "jumanji-welcome-to-the-jungle",
+    title: "Jumanji: Welcome to the Jungle",
+    year: 2017,
+    rating: 6.9,
+    duration: "1სთ 59წთ",
+    category: "comedy",
+    description:
+      "ოთხი მოზარდი ვიდეო-თამაშში მოხვდება და გმირებად ქცეულებმა ჯუნგლები უნდა გაიარონ.",
+    keywords: ["adventure", "თამაში", "game", "comedy", "კომედია", "jungle"],
+    image: "https://upload.wikimedia.org/wikipedia/en/d/dc/Jumanji_Welcome_to_the_Jungle.png",
+    trailer: "2QKg5SZ_35I",
+  },
+  {
+    id: "step-brothers",
+    title: "Step Brothers",
+    year: 2008,
+    rating: 6.9,
+    duration: "1სთ 38წთ",
+    category: "comedy",
+    description:
+      "ორი ზრდასრული უსაქმური კაცი გერ-ძმებად იქცევა და ქაოსს ტოვებს ყველგან.",
+    keywords: ["funny", "სიცილი", "brothers", "comedy", "კომედია", "family"],
+    image: "https://upload.wikimedia.org/wikipedia/en/d/d9/StepbrothersMP08.jpg",
+    trailer: "CewglxElBK0",
+  },
+  {
+    id: "american-sniper",
+    title: "American Sniper",
+    year: 2014,
+    rating: 7.3,
+    duration: "2სთ 13წთ",
+    category: "war",
+    description:
+      "საუკეთესო ამერიკელი სნაიპერის ცხოვრება ომსა და ოჯახს შორის ტკივილიან ბალანსშია.",
+    keywords: ["war", "ომი", "sniper", "soldier", "military", "drama"],
+    image: "https://upload.wikimedia.org/wikipedia/en/1/10/American_Sniper_poster.jpg",
+    trailer: "99k3u9ay1gs",
+  },
+  {
+    id: "fury",
+    title: "Fury",
+    year: 2014,
+    rating: 7.5,
+    duration: "2სთ 14წთ",
+    category: "war",
+    description:
+      "ტანკის ეკიპაჟი მეორე მსოფლიო ომის დასასრულს გერმანიის სიღრმეში სასიკვდილო მისიას ასრულებს.",
+    keywords: ["war", "ომი", "tank", "soldier", "military", "battle"],
+    image: "https://upload.wikimedia.org/wikipedia/en/1/17/Fury_2014_poster.jpg",
+    trailer: "q94n3eWOWXM",
+  },
+  {
+    id: "black-hawk-down",
+    title: "Black Hawk Down",
+    year: 2001,
+    rating: 7.7,
+    duration: "2სთ 24წთ",
+    category: "war",
+    description:
+      "ამერიკელი ჯარისკაცები სომალიში მისიის ჩავარდნის შემდეგ სასტიკ ბრძოლაში ებმებიან.",
+    keywords: ["war", "ომი", "soldier", "battle", "military", "survival"],
+    image: "https://upload.wikimedia.org/wikipedia/en/0/0c/Black_hawk_down_ver1.jpg",
+    trailer: "2GfBkC3qs78",
   },
 ];
 
